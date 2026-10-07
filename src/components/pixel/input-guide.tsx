@@ -11,6 +11,7 @@ export function InputGuide() {
           <span className="trail-dot" />
           <MousePointer2 size={32} />
           <ArrowRight className="diagram-arrow" size={24} />
+          <span className="geometry-target" aria-hidden="true" />
         </div>
         <div className="step-label">
           <span>01</span>
@@ -53,6 +54,7 @@ export function InputGuide() {
             <kbd>S</kbd>
             <kbd>D</kbd>
           </div>
+          <span className="keyboard-path" aria-hidden="true"><ArrowRight size={20}/><span className="geometry-target" /></span>
           <CornerDownLeft size={20} />
         </div>
         <div className="step-label">

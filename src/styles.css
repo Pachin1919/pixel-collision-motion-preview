@@ -63,6 +63,11 @@
   --pixel-blue: oklch(0.6 0.2 264);
   --pixel-lilac: oklch(0.7 0.12 275);
   --pixel-ice: oklch(0.88 0.04 229);
+  --manual-paper: oklch(0.93 0.025 219);
+  --manual-ink: oklch(0.25 0.035 240);
+  --manual-muted: oklch(0.43 0.035 238);
+  --manual-line: oklch(0.76 0.035 220);
+  --manual-cyan: oklch(0.43 0.085 215);
   --art-shade: oklch(0.1 0.022 254 / 0.8);
   --field-gradient:
     linear-gradient(90deg, var(--art-shade), transparent 78%),
@@ -1471,4 +1476,124 @@ svg {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* Round two: still plates and five distinct editorial chapter structures. */
+.input-manual {
+  background: var(--manual-paper);
+  color: var(--manual-ink);
+  --primary: var(--manual-cyan);
+  --foreground: var(--manual-ink);
+  --muted-foreground: var(--manual-muted);
+  --border: var(--manual-line);
+}
+.manual-inner { max-width: 1220px; margin: auto; padding: 66px 42px 58px; }
+.manual-inner > .micro-label { margin-bottom: 22px; color: var(--manual-cyan); }
+.input-manual .section-heading { margin-bottom: 36px; }
+.input-manual .section-heading h2 { font-size: 52px; }
+.input-manual .input-guide { gap: 40px; }
+.input-manual .input-diagram { height: 140px; justify-content: flex-start; padding-left: 12px; }
+.input-manual .input-guide p { font-size: 13px; max-width: 36ch; }
+.geometry-target { display: inline-block; width: 22px; height: 22px; flex-shrink: 0; background: var(--signal); outline: 1px solid var(--manual-muted); outline-offset: 5px; }
+.input-manual .pointer-diagram .diagram-arrow { margin: 0 8px; opacity: 1; }
+.input-manual .touch-square { width: 44px; height: 44px; background: var(--signal); box-shadow: none; border: 1px solid var(--manual-muted); }
+.input-manual .keys-diagram { align-items: flex-start; padding-left: 40px; }
+.input-manual .keys-diagram > div:first-child { margin-left: 32px; }
+.keyboard-path { position: absolute; left: 158px; top: 58px; display: flex; gap: 14px; align-items: center; }
+.input-manual .keys-diagram > svg { display: none; }
+.art-interlude { padding: 54px 0 0; background: var(--background); }
+.interlude-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 0 7.8% 30px; }
+.interlude-heading h2 { font-size: 48px; line-height: 1.1; }
+.interlude-heading > span { font-size: 10px; color: var(--primary); }
+.art-interlude figure { margin: 0; }
+.art-interlude img { display: block; width: 100%; height: auto; aspect-ratio: 2/1; image-rendering: crisp-edges; }
+.art-interlude figcaption { padding: 18px 7.8%; font-size: 11px; color: var(--muted-foreground); border-bottom: 1px solid var(--border); }
+.signal-atlas { max-width: 1220px; margin: auto; padding: 80px 42px; display: grid; grid-template-columns: 1.2fr .28fr .75fr; gap: 32px; align-items: start; }
+.signal-atlas header { grid-column: 1/3; padding-bottom: 10px; }
+.signal-atlas h2 { font-size: 56px; line-height: 1.1; margin: 16px 0; }
+.signal-atlas header p { max-width: 400px; color: var(--muted-foreground); font-size: 13px; }
+.signal-atlas figure { margin: 0; min-width: 0; }
+.signal-atlas img { display: block; width: 100%; height: auto; image-rendering: crisp-edges; }
+.atlas-fragments { grid-column: 1/3; grid-row: 2; max-width: 650px; }
+.atlas-interference { grid-column: 3; grid-row: 1/3; padding-top: 10px; }
+.signal-atlas figcaption { display: flex; flex-direction: column; gap: 7px; font-size: 12px; padding-top: 16px; }
+.signal-atlas figcaption strong { font-weight: 400; }
+.signal-atlas figcaption span { color: var(--muted-foreground); font-size: 11px; }
+.atlas-note { grid-column: 3; grid-row: 3; border-top: 1px solid var(--border); padding-top: 24px; font-size: 12px; }
+.note-square { width: 12px; height: 12px; background: var(--signal); display: block; margin-bottom: 18px; }
+.atlas-note p { color: var(--muted-foreground); margin-bottom: 20px; }
+.atlas-note a, .workshop-ending a { display: inline-flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--primary); padding-bottom: 6px; font-size: 12px; }
+.mode-decision { display: grid; grid-template-columns: .85fr 1.3fr; border-block: 1px solid var(--border); }
+.decision-explore { background: var(--secondary); padding: 70px 13% 65px 18%; }
+.mode-decision h2 { font-size: 48px; margin: 15px 0 20px; line-height: 1.05; }
+.mode-decision p { max-width: 370px; font-size: 13px; color: var(--muted-foreground); line-height: 1.8; margin-bottom: 28px; }
+.decision-challenge { padding: 65px 10% 65px 7%; display: flex; gap: 35px; align-items: start; }
+.decision-clock { font: 130px/.85 Barlow, NotoSC, sans-serif; color: var(--signal); padding-top: 23px; }
+.decision-clock > span { display: block; font: 10px/1.6 Plex,NotoSC,sans-serif; margin-top: 16px; }
+.decision-rules { display: flex; align-items: center; gap: 8px; font-size: 11px; margin-top: 20px; color: var(--muted-foreground); }
+.workshop-ending { max-width: 1220px; margin: auto; padding: 44px 42px 50px; display: grid; grid-template-columns: 1fr 1.5fr auto; gap: 15px 35px; align-items: center; }
+.workshop-ending > .micro-label { grid-column: 1/-1; }
+.workshop-ending h2 { font-size: 32px; }
+.workshop-ending p { color: var(--muted-foreground); font-size: 12px; }
+.howto-round2 .input-manual { margin: 0 -42px; }
+.howto-round2 .manual-inner { padding: 20px 42px 38px; }
+.rule-study { margin: 22px 0 0; max-width: 310px; }
+.rule-study img { width: 100%; height: auto; display: block; }
+.rule-study figcaption { color: var(--muted-foreground); font-size: 10px; margin-top: 12px; }
+.howto-round2 .art-interlude { margin-top: 45px; }
+.howto-round2 .interlude-heading { padding: 0 0 25px; }
+.howto-round2 .interlude-heading h2 { font-size: 34px; }
+.howto-round2 .art-interlude figcaption { padding-left: 0; }
+.about-round2 .process-section { background: var(--manual-paper); color: var(--manual-ink); padding: 44px; margin: 0 -42px; --muted-foreground: var(--manual-muted); --primary: var(--manual-cyan); }
+.about-round2 .signal-atlas { padding-left: 0; padding-right: 0; }
+.about-round2 .credits-section { margin-top: 5px; }
+:lang(zh) .signal-atlas h2, :lang(zh) .interlude-heading h2 { font-size: 40px; line-height: 1.3; }
+:lang(zh) .mode-decision h2 { font-size: 34px; line-height: 1.4; }
+:lang(zh) .workshop-ending h2 { font-size: 27px; }
+@media (max-width: 1000px) {
+  .decision-challenge { flex-direction: column; gap: 25px; }
+  .decision-clock { font-size: 100px; padding: 0; }
+  .workshop-ending { grid-template-columns: 1fr 1.5fr; }
+  .workshop-ending a { grid-column: 2; justify-self: start; }
+}
+@media (max-width: 600px) {
+  .manual-inner { padding: 42px 24px; }
+  .input-manual .section-heading h2 { font-size: 42px; }
+  .input-manual .input-guide { gap: 28px; }
+  .input-manual .input-guide article { display: block; padding-top: 12px; }
+  .input-manual .input-diagram { height: 104px; padding-left: 15px; justify-content: flex-start; }
+  .input-manual .input-guide h3 { font-size: 17px; }
+  .input-manual .input-guide p { max-width: none; font-size: 13px; }
+  .input-manual .pointer-diagram .diagram-arrow { position: static; width: 24px; }
+  .input-manual .keys-diagram { padding-left: 18px; }
+  .keyboard-path { top: 35px; left: 134px; }
+  .interlude-heading { display: block; padding: 0 24px 25px; }
+  .interlude-heading h2 { font-size: 36px; margin-bottom: 15px; }
+  .art-interlude { padding-top: 36px; }
+  .art-interlude figcaption { padding: 15px 24px; }
+  .signal-atlas { padding: 44px 24px; grid-template-columns: 1fr .65fr; gap: 25px 16px; }
+  .signal-atlas header { grid-column: 1/-1; }
+  .signal-atlas h2 { font-size: 42px; }
+  .atlas-fragments { grid-column: 1/-1; grid-row: 2; }
+  .atlas-interference { grid-column: 2; grid-row: 3; padding-top: 0; }
+  .atlas-note { grid-column: 1; grid-row: 3; padding-top: 16px; }
+  .mode-decision { grid-template-columns: 1fr; }
+  .decision-explore { padding: 42px 24px; }
+  .decision-challenge { padding: 40px 24px; flex-direction: row; gap: 20px; }
+  .decision-clock { font-size: 77px; }
+  .decision-clock > span { font-size: 8px; }
+  .mode-decision h2 { font-size: 38px; }
+  .decision-challenge h2 { font-size: 32px; }
+  .decision-challenge .signal-button { padding: 0 12px; font-size: 11px; }
+  .workshop-ending { display: block; padding: 34px 24px; }
+  .workshop-ending h2 { margin: 18px 0 12px; }
+  .workshop-ending p { margin-bottom: 20px; }
+  .howto-round2 .input-manual { margin: 0 -24px; }
+  .howto-round2 .manual-inner { padding: 18px 24px 32px; }
+  .howto-round2 .interlude-heading { padding: 0 0 20px; }
+  .about-round2 .process-section { margin: 0 -24px; padding: 30px 24px; }
+  :lang(zh) .input-manual .section-heading h2 { font-size: 32px; }
+  :lang(zh) .signal-atlas h2, :lang(zh) .interlude-heading h2 { font-size: 30px; }
+  :lang(zh) .mode-decision h2 { font-size: 29px; }
+  :lang(zh) .decision-challenge h2 { font-size: 25px; }
 }

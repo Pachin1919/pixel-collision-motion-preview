@@ -3,6 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { SectionIntro } from "@/components/pixel/site-shell";
 import { useLanguage } from "@/lib/pixel-language";
+import { SignalAtlas } from "@/components/pixel/art-studies";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
@@ -26,7 +27,7 @@ export const Route = createFileRoute("/about")({
 function About() {
   const { t } = useLanguage();
   return (
-    <main className="detail-page about-page">
+    <main className="detail-page about-page about-round2">
       <Link to="/" className="back-link">
         <ArrowLeft size={14} />
         {t("Back to the current", "返回像素流")}
@@ -47,7 +48,8 @@ function About() {
       </div>
       <figure className="artwork-figure">
         <img
-          src={asset("/assets/pixel-current.png")}
+          src={asset("assets/pixel-current.png")}
+          loading="lazy" width={1672} height={941}
           alt={t(
             "Original pixel-wave painting: three flowing bands of blue and cyan squares with coral signals on a deep blue-black field.",
             "原版像素波浪作品：蓝黑色背景上，三条蓝色与青色方块流带，点缀珊瑚色信号。",
@@ -84,9 +86,11 @@ function About() {
           </p>
         </div>
       </section>
+      <SignalAtlas />
       <section className="credits-section">
         <SectionIntro number="03 /" label={t("ARTWORK & CREDITS", "作品与鸣谢")} />
         <dl>
+          <div><dt>{t("New still studies", "新的静态习作")}</dt><dd>{t("Cross-current, Signal fragments and Interference. Generated for this owner-authorized refinement; the original PACHIN artwork remains unchanged.", "交汇流、信号碎片与干涉。为本次所有者授权的优化生成；PACHIN 原版作品保持不变。")}</dd></div>
           <div>
             <dt>{t("Original artwork & study", "原版作品与动态习作")}</dt>
             <dd>
@@ -115,9 +119,9 @@ function About() {
             <dd>
               Barlow Condensed · IBM Plex Sans · Noto Sans SC{" "}
               <div className="license-links">
-                <a href={asset("/assets/barlow-condensed-LICENSE.txt")}>Barlow OFL ↗</a>
-                <a href={asset("/assets/ibm-plex-sans-LICENSE.txt")}>Plex OFL ↗</a>
-                <a href={asset("/assets/noto-sans-sc-LICENSE.txt")}>Noto OFL ↗</a>
+                <a href={asset("assets/barlow-condensed-LICENSE.txt")}>Barlow OFL ↗</a>
+                <a href={asset("assets/ibm-plex-sans-LICENSE.txt")}>Plex OFL ↗</a>
+                <a href={asset("assets/noto-sans-sc-LICENSE.txt")}>Noto OFL ↗</a>
               </div>
             </dd>
           </div>

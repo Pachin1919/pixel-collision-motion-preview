@@ -1,9 +1,11 @@
+import { asset } from "@/lib/asset";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowUpRight, Plus, Pause, RotateCcw } from "lucide-react";
 import { InputGuide } from "@/components/pixel/input-guide";
 import { SectionIntro } from "@/components/pixel/site-shell";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/lib/pixel-language";
+import { CrossCurrent } from "@/components/pixel/art-studies";
 export const Route = createFileRoute("/how-to")({
   head: () => ({
     meta: [
@@ -27,7 +29,7 @@ export const Route = createFileRoute("/how-to")({
 function HowTo() {
   const { t } = useLanguage();
   return (
-    <main className="detail-page">
+    <main className="detail-page howto-round2">
       <Link to="/" className="back-link">
         <ArrowLeft size={14} />
         {t("Back to the current", "返回像素流")}
@@ -46,7 +48,7 @@ function HowTo() {
           )}
         </p>
       </div>
-      <InputGuide />
+      <section className="input-manual"><div className="manual-inner"><InputGuide /></div></section>
       <section className="rules-section">
         <div>
           <SectionIntro number="02 /" label={t("THE 45-SECOND CHALLENGE", "45 秒挑战")} />
@@ -61,6 +63,7 @@ function HowTo() {
             <strong>1</strong>
             <span>{t("SIGNAL = POINT", "信号 = 分数")}</span>
           </div>
+          <figure className="rule-study"><img src={asset("assets/round2-signal-fragments.png")} width={1024} height={1024} loading="lazy" decoding="async" alt={t("Coral signal fragments and sparse cyan marks on a blue-black field.", "蓝黑场景中的珊瑚色信号碎片与稀疏青色标记。")}/><figcaption>{t("Signal fragments — a still study, not a game target.", "信号碎片——静态习作，并非游戏目标。")}</figcaption></figure>
         </div>
         <ol className="rules-list">
           <li>
@@ -119,6 +122,7 @@ function HowTo() {
           </li>
         </ol>
       </section>
+      <CrossCurrent compact />
       <section className="access-note">
         <span className="micro-label">{t("A QUIETER CURRENT", "更安静的像素流")}</span>
         <p>
