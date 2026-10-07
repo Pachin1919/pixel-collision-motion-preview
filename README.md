@@ -1,17 +1,24 @@
-# Pixel Collision — Motion Preview
+# Pixel Current
 
-A retro-digital current for the PACHIN website: a painted pixel-wave image, a slow ambient field, and a separate interactive layer that scatters around the pointer. Moving the pointer triggers a compact collision; clicking is optional, not required.
+[Live demo](https://pachin1919.github.io/pixel-collision-motion-preview/)
 
-[**Open the live preview**](https://pachin1919.github.io/pixel-collision-motion-preview/)
+![Desktop preview](assets/preview.png)
 
-![First-screen preview of the pixel current](assets/preview.png)
+A complete standalone bilingual visual frontend, expanded from the original demo with Lovable and adapted for static GitHub Pages hosting.
 
-This is an independent art-direction study, not the production website. Use **Pause motion** or your system's reduced-motion setting to stop the interaction.
+## Pages
 
-To run locally, serve this directory with a static server and open `index.html`, for example in PowerShell:
+- /
+- /play
+- /how-to
+- /about
 
-```powershell
-py -m http.server 4333 --bind 127.0.0.1
-```
+## Local development
 
-The painting is a project-specific visual asset and is not offered for reuse. Barlow Condensed and IBM Plex Sans license texts are included in `assets/`; GSAP's license notice is included in `vendor/gsap.min.js`.
+Run npm.cmd install, then npm.cmd run dev.
+
+## Build
+
+Run npm.cmd run build.
+
+[Deployment notes](docs/GITHUB-PAGES.md). Original artwork remains project-specific and is not licensed for general reuse; font OFL notices are included. Repository history preserves the earlier standalone demo.
