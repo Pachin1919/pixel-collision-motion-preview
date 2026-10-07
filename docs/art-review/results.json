@@ -1,0 +1,507 @@
+{
+  "key": "pixel",
+  "matrix": [
+    {
+      "width": 1440,
+      "route": "",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 4278,
+        "sections": [
+          {
+            "class": "play-section ",
+            "top": 86,
+            "height": 813
+          },
+          {
+            "class": "input-manual",
+            "h2": "Small gestures.Unexpected ripples.",
+            "top": 899,
+            "height": 586
+          },
+          {
+            "class": "art-interlude ",
+            "h2": "Where currents cross.",
+            "top": 1485.234375,
+            "height": 911
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "A signal, up close.",
+            "top": 2396.625,
+            "height": 1235
+          },
+          {
+            "class": "mode-decision",
+            "h2": "Just wander.",
+            "top": 3631.15625,
+            "height": 392
+          },
+          {
+            "class": "workshop-ending",
+            "h2": "The artwork leads.",
+            "top": 4022.921875,
+            "height": 176
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 4205,
+        "sections": [
+          {
+            "class": "play-section ",
+            "top": 86,
+            "height": 813
+          },
+          {
+            "class": "input-manual",
+            "h2": "小小动作。意外涟漪。",
+            "top": 899,
+            "height": 598
+          },
+          {
+            "class": "art-interlude ",
+            "h2": "像素流交汇之处。",
+            "top": 1496.953125,
+            "height": 911
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "近看一个信号。",
+            "top": 2407.546875,
+            "height": 1185
+          },
+          {
+            "class": "mode-decision",
+            "h2": "随意游走。",
+            "top": 3592.5,
+            "height": 366
+          },
+          {
+            "class": "workshop-ending",
+            "h2": "作品先行。",
+            "top": 3958.078125,
+            "height": 168
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "route": "play/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 979,
+        "sections": [
+          {
+            "class": "play-section focused",
+            "top": 132,
+            "height": 712
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 979,
+        "sections": [
+          {
+            "class": "play-section focused",
+            "top": 132,
+            "height": 712
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "route": "how-to/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "A gesture is\nall it takes.",
+        "overflow": 0,
+        "broken": [],
+        "height": 2769,
+        "sections": [
+          {
+            "class": "input-manual",
+            "top": 487.796875,
+            "height": 337
+          },
+          {
+            "class": "rules-section",
+            "h2": "Coral meanscatch me.",
+            "top": 899.84375,
+            "height": 745
+          },
+          {
+            "class": "art-interlude compact",
+            "h2": "Where currents cross.",
+            "top": 1689.75,
+            "height": 739
+          },
+          {
+            "class": "access-note",
+            "top": 2464.734375,
+            "height": 58
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "一个动作，\n就够了。",
+        "overflow": 0,
+        "broken": [],
+        "height": 2718,
+        "sections": [
+          {
+            "class": "input-manual",
+            "top": 473.796875,
+            "height": 312
+          },
+          {
+            "class": "rules-section",
+            "h2": "珊瑚色，就是信号。",
+            "top": 861.15625,
+            "height": 737
+          },
+          {
+            "class": "art-interlude compact",
+            "h2": "像素流交汇之处。",
+            "top": 1643.15625,
+            "height": 754
+          },
+          {
+            "class": "access-note",
+            "top": 2432.75,
+            "height": 39
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "route": "about/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "From a study.\nInto a small world.",
+        "overflow": 0,
+        "broken": [],
+        "height": 3763,
+        "sections": [
+          {
+            "class": "process-section",
+            "h2": "The artwork leads.",
+            "top": 1173.1875,
+            "height": 557
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "A signal, up close.",
+            "top": 1730.390625,
+            "height": 1235
+          },
+          {
+            "class": "credits-section",
+            "top": 2969.921875,
+            "height": 522
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "始于习作。\n成为小小世界。",
+        "overflow": 0,
+        "broken": [],
+        "height": 3610,
+        "sections": [
+          {
+            "class": "process-section",
+            "h2": "作品先行。",
+            "top": 1159.1875,
+            "height": 533
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "近看一个信号。",
+            "top": 1691.703125,
+            "height": 1185
+          },
+          {
+            "class": "credits-section",
+            "top": 2881.65625,
+            "height": 457
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "route": "",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 4244,
+        "sections": [
+          {
+            "class": "play-section ",
+            "top": 96,
+            "height": 747
+          },
+          {
+            "class": "input-manual",
+            "h2": "Small gestures.Unexpected ripples.",
+            "top": 843,
+            "height": 1050
+          },
+          {
+            "class": "art-interlude ",
+            "h2": "Where currents cross.",
+            "top": 1892.75,
+            "height": 382
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "A signal, up close.",
+            "top": 2274.328125,
+            "height": 977
+          },
+          {
+            "class": "mode-decision",
+            "h2": "Just wander.",
+            "top": 3251.328125,
+            "height": 644
+          },
+          {
+            "class": "workshop-ending",
+            "h2": "The artwork leads.",
+            "top": 3895.359375,
+            "height": 252
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 4185,
+        "sections": [
+          {
+            "class": "play-section ",
+            "top": 96,
+            "height": 747
+          },
+          {
+            "class": "input-manual",
+            "h2": "小小动作。意外涟漪。",
+            "top": 843,
+            "height": 1049
+          },
+          {
+            "class": "art-interlude ",
+            "h2": "像素流交汇之处。",
+            "top": 1892.46875,
+            "height": 381
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "近看一个信号。",
+            "top": 2273.453125,
+            "height": 949
+          },
+          {
+            "class": "mode-decision",
+            "h2": "随意游走。",
+            "top": 3222.46875,
+            "height": 623
+          },
+          {
+            "class": "workshop-ending",
+            "h2": "作品先行。",
+            "top": 3845.21875,
+            "height": 244
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "route": "play/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 966,
+        "sections": [
+          {
+            "class": "play-section focused",
+            "top": 139,
+            "height": 660
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "PIXEL\nCURRENT·",
+        "overflow": 0,
+        "broken": [],
+        "height": 966,
+        "sections": [
+          {
+            "class": "play-section focused",
+            "top": 139,
+            "height": 660
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "route": "how-to/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "A gesture is\nall it takes.",
+        "overflow": 0,
+        "broken": [],
+        "height": 3282,
+        "sections": [
+          {
+            "class": "input-manual",
+            "top": 451.171875,
+            "height": 780
+          },
+          {
+            "class": "rules-section",
+            "h2": "Coral meanscatch me.",
+            "top": 1280.859375,
+            "height": 1263
+          },
+          {
+            "class": "art-interlude compact",
+            "h2": "Where currents cross.",
+            "top": 2589.3125,
+            "height": 350
+          },
+          {
+            "class": "access-note",
+            "top": 2964.6875,
+            "height": 95
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "一个动作，\n就够了。",
+        "overflow": 0,
+        "broken": [],
+        "height": 3163,
+        "sections": [
+          {
+            "class": "input-manual",
+            "top": 418.359375,
+            "height": 780
+          },
+          {
+            "class": "rules-section",
+            "h2": "珊瑚色，就是信号。",
+            "top": 1248.046875,
+            "height": 1193
+          },
+          {
+            "class": "art-interlude compact",
+            "h2": "像素流交汇之处。",
+            "top": 2486.015625,
+            "height": 352
+          },
+          {
+            "class": "access-note",
+            "top": 2863,
+            "height": 78
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "route": "about/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "h1": "From a study.\nInto a small world.",
+        "overflow": 0,
+        "broken": [],
+        "height": 3317,
+        "sections": [
+          {
+            "class": "process-section",
+            "h2": "The artwork leads.",
+            "top": 852.265625,
+            "height": 591
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "A signal, up close.",
+            "top": 1443.625,
+            "height": 977
+          },
+          {
+            "class": "credits-section",
+            "top": 2425.625,
+            "height": 622
+          }
+        ]
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "始于习作。\n成为小小世界。",
+        "overflow": 0,
+        "broken": [],
+        "height": 3131,
+        "sections": [
+          {
+            "class": "process-section",
+            "h2": "作品先行。",
+            "top": 782.25,
+            "height": 523
+          },
+          {
+            "class": "signal-atlas",
+            "h2": "近看一个信号。",
+            "top": 1305.21875,
+            "height": 949
+          },
+          {
+            "class": "credits-section",
+            "top": 2259.234375,
+            "height": 602
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "bad": []
+}
