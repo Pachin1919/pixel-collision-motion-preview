@@ -1,6 +1,6 @@
 # GitHub Pages delivery
 
-Source Lovable revision: d8f0223c1e2bf73ae5fce7d4657f8efc27627ad5.
+Source snapshot: d8f0223c1e2bf73ae5fce7d4657f8efc27627ad5.
 
 The reviewed React/TanStack route content and interactions are retained. Hosting is adapted to a static Vite browser app; the server wrapper and platform error-reporting transport are excluded. Repository base path is /pixel-collision-motion-preview/. Every known detail route gets a physical index.html for direct entry and refresh.
 

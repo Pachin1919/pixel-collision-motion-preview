@@ -2,7 +2,7 @@
 
 ## Scope and source authority
 
-Completed in this Lovable project for owner review on 2026-10-07. No publishing, external repository writes, new routes, package/version changes, backend, audio, analytics or duplicate effect systems. Original source authority: `Pachin1919/pixel-collision-motion-preview`, commit `3d0d5452fd9b63a3c204ee2c0e2096392304ea81`. Owner-provided current downstream reference: `3d04ff9d9fe09afc7cdc07cf1c26c9addfd8903a` at https://pachin1919.github.io/pixel-collision-motion-preview/. These are distinct references; round two does not assert that it changed the downstream site.
+Completed in the source project for owner review on 2026-10-07. No publishing, external repository writes, new routes, package/version changes, backend, audio, analytics or duplicate effect systems. Original source authority: `Pachin1919/pixel-collision-motion-preview`, commit `3d0d5452fd9b63a3c204ee2c0e2096392304ea81`. Owner-provided current downstream reference: `3d04ff9d9fe09afc7cdc07cf1c26c9addfd8903a` at https://pachin1919.github.io/pixel-collision-motion-preview/. These are distinct references; round two does not assert that it changed the downstream site.
 
 The original `public/assets/pixel-current.png` (1672×941), first playable screen, native Canvas lifecycle, game rules and four content routes remain incumbent. No original image was recolored or cropped for the new asset count.
 
